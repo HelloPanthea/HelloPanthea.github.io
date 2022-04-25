@@ -21,7 +21,7 @@ let columns = document.getElementById('columns'); //页面上的容器
       window.location.href = "itms-services://?action=download-manifest&url=https://gitee.com/Panthea/RestaurantEmpire/raw/master/CookingShow.plist";
     }
     else{
-      window.location.href = "http://192.168.0.100:82/build/apk/Dev.apk";
+      window.location.href = "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaHp5MV9EblhIT1ZpS1J6ZDB3emwyeGZxME1ZSXc_ZT1XYnVPQ0k.apk";
     }
   });
   buttons.appendChild(button);
