@@ -5,7 +5,7 @@ function getOS() {
   var i, os = ['Windows', 'Android', 'Unix', 'Mac', 'Linux', 'BlackBerry'];
   for (i = 0; i < os.length; i++) if (new RegExp(os[i],'i').test(uA)) return os[i];
 }
-
+alert("Hello World");
 let columns = document.getElementById('columns'); //页面上的容器
   //创建容器
   let buttons = document.createElement("div");
