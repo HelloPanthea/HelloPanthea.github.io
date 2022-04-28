@@ -5,7 +5,6 @@ function getOS() {
   var i, os = ['Windows', 'Android', 'Unix', 'Mac', 'Linux', 'BlackBerry'];
   for (i = 0; i < os.length; i++) if (new RegExp(os[i],'i').test(uA)) return os[i];
 }
-alert("Hello World");
 let columns = document.getElementById('columns'); //页面上的容器
   //创建容器
   let buttons = document.createElement("div");
@@ -18,7 +17,7 @@ let columns = document.getElementById('columns'); //页面上的容器
   button.innerHTML = "开发版";
   button.addEventListener("click", function () {
     if(getOS() == 'iOS'){
-      window.location.href = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HelloPanthea/HelloPanthea.github.io/main/download.plist";
+      window.location.href = "itms-services://?action=download-manifest&url=https://gitee.com/Panthea/RestaurantEmpire/raw/master/CookingShow_WaiWang.plist";
     }
     else{
       window.location.href = "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaHp5MV9EblhIT1ZpS1J6ZDB3emwyeGZxME1ZSXc_ZT1XYnVPQ0k.apk";
