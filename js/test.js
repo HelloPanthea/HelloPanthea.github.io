@@ -17,7 +17,13 @@ let columns = document.getElementById('columns'); //页面上的容器
   button.innerHTML = "开发版";
   button.addEventListener("click", function () {
     if(getOS() == 'iOS'){
-      window.location.href = "itms-services://?action=download-manifest&url=https://gitee.com/Panthea/RestaurantEmpire/raw/master/CookingShow_WaiWang.plist";
+      var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+      if(isSafari){
+        window.location.href = "itms-services://?action=download-manifest&url=https://gitee.com/Panthea/RestaurantEmpire/raw/master/CookingShow.plist";
+      }
+      else{
+        alert("请使用Safari浏览器打开当前页面");
+      }
     }
     else{
       window.location.href = "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaHp5MV9EblhIT1ZpS1J6ZDB3emwyeGZxME1ZSXc_ZT1XYnVPQ0k.apk";
