@@ -26,7 +26,7 @@ let columns = document.getElementById('columns'); //页面上的容器
       }
     }
     else{
-      window.location.href = "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaHp5MV9EblhIT1ZpS1J6ZDB3emwyeGZxME1ZSXc_ZT1XYnVPQ0k.apk";
+      window.location.href = "http://dcyy.tpddns.cn:82/build/apk/Dev.apk";
     }
   });
   buttons.appendChild(button);
@@ -36,7 +36,7 @@ let columns = document.getElementById('columns'); //页面上的容器
   button2.className = "button learn-more smoothscroll";
   button2.innerHTML = "更新日志";
   button2.addEventListener("click", function () {
-    window.location.href = "http://192.168.0.100:82/build/apk/Dev.txt"
+    window.location.href = "http://dcyy.tpddns.cn:82/build/apk/Dev.txt"
   });
   buttons.appendChild(button2);
 
