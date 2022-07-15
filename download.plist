@@ -8,7 +8,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaHp5MV9EblhIT1ZpS1IwTjVoY21zcGdnTUxMckE_ZT1wYmhMYXo.ipa</string>
+                    <string>http://192.168.0.100:82/build/ipa/dev.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
