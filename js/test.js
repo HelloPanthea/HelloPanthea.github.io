@@ -19,14 +19,14 @@ let columns = document.getElementById('columns'); //页面上的容器
     if(getOS() == 'iOS'){
       var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
       if(isSafari){
-        window.location.href = "itms-services://?action=download-manifest&url=https://gitee.com/Panthea/RestaurantEmpire/raw/master/CookingShow.plist";
+        window.location.href = "itms-services://?action=download-manifest&url=https://gitee.com/Panthea/RestaurantEmpire/raw/master/CookingShow_WaiWang.plist";
       }
       else{
         alert("请使用Safari浏览器打开当前页面");
       }
     }
     else{
-      window.location.href = "http://dcyy.tpddns.cn:82/build/apk/Dev.apk";
+      window.location.href = "https://thecookingshow-1253480967.cos.ap-guangzhou.myqcloud.com/Dev.apk";
     }
   });
   buttons.appendChild(button);
@@ -36,7 +36,7 @@ let columns = document.getElementById('columns'); //页面上的容器
   button2.className = "button learn-more smoothscroll";
   button2.innerHTML = "更新日志";
   button2.addEventListener("click", function () {
-    window.location.href = "http://dcyy.tpddns.cn:82/build/apk/Dev.txt"
+    window.location.href = "https://thecookingshow-1253480967.cos.ap-guangzhou.myqcloud.com/Dev.txt"
   });
   buttons.appendChild(button2);
 
