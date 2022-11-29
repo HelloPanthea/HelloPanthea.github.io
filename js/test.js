@@ -19,7 +19,7 @@ let columns = document.getElementById('columns'); //页面上的容器
     if(getOS() == 'iOS'){
       var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
       if(isSafari){
-        window.location.href = "itms-services://?action=download-manifest&url=https://gitee.com/Panthea/RestaurantEmpire/raw/master/CookingShow_WaiWang.plist";
+        window.location.href = "itms-apps://itunes.apple.com/app/id1630323035";
       }
       else{
         alert("请使用Safari浏览器打开当前页面");
