@@ -26,7 +26,7 @@ let columns = document.getElementById('columns'); //页面上的容器
       }
     }
     else{
-      window.location.href = "http://dcyy.tpddns.cn:82/build/apk/Dev.apk";
+      window.location.href = "market://details?id=com.cicada.cookingshow";
     }
   });
   buttons.appendChild(button);
